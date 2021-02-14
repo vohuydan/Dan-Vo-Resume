@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".AcademicsFragment"
+    android:background="@drawable/bac">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:columnCount="1"
+            android:rowCount="2"
+            android:scrollbars="none"
+            >
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="321dp"
+                        android:layout_height="82dp"
+                        android:text="Various Academic Experience"
+                        android:layout_marginTop="15dp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        android:textSize="35sp">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="•	Embedded systems, CPU architectures, memory management, timers, interrupts, and serial communications (UART, I2C). Incorporated peripheral modules such as Bluetooth, switches, an LCD screen, sonar, IR, and joystick\n\n•	Object Oriented programming, data structures, loops, sorting algorithms, file operations, polymorphism, inheritance, recursion, validation, and testing cases\n\n•	Synchronous circuits, state machines, structural and behavioral modeling, and modeling with logic gates\n\n•	Linear Time- Invariant systems, Fourier series and transform, designed filters, solve control systems\n\n•	Three phase AC systems, ideal/non-ideal/auto transformers, induction machines, synchronous machines, DC motors, and transmission lines\n\n•	Using electrical components including diodes, metal-oxide-semiconductor field-effect transistor (MOSFET), amplifiers, and BJTs, circuits were designed to take measurements and adjusted to get desired results\n\n•	Circuit simulation in Pspice Software\n"
+                        android:textColor="@color/black"
+                        android:textSize="15sp"
+                        android:layout_margin="10dp">
+
+                    </TextView>
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
